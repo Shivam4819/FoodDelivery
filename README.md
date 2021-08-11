@@ -1,8 +1,14 @@
 # JackFruit Assignment
 
-The server side of the application is build using java on Spring boot. The project architecture has three layers,that are controller, service and dao layer.
+The application is based on concept of online food delivery system. The application contains both front end and back end. The front end is made on react and
+the server side of the application is build using java on Spring boot. .
+- vedio link of assignment-  https://www.loom.com/share/3dc6ecd69c194df39ad75332a5fba2a4
+             
+- frontend code  github link - https://github.com/Shivam4819/JackFruitFrontEnd
 
-## Layers
+## Architecture of Backend
+
+The project architecture has three layers,that are controller, service and dao layer
 
 - Controller- Controller basically act as gateway , it accept request from frontend and send that request to specific service on Service layer.
 
@@ -27,9 +33,3 @@ The server side of the application is build using java on Spring boot. The proje
 - placeOrder- This api stores all the data when order is finally placed.
 
 - finalOrder- This api return the final order from order tabel.
-
-## FrontEnd 
-
-### The frontend of the application is build on react and its code is available on the following github link-
-
-https://github.com/Shivam4819/JackFruitFrontEnd
