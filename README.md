@@ -1,4 +1,4 @@
-# JackFruitServer
+# JackFruit Assignment
 
 The server side of the application is build using java on Spring boot. The project architecture has three layers,that are controller, service and dao layer.
 
