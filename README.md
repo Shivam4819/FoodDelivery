@@ -2,7 +2,7 @@
 
 The application is based on concept of online food delivery system. The application contains both front end and back end. The front end is made on react and
 the server side of the application is build using java on Spring boot. .
-- vedio link of assignment-  https://www.loom.com/share/3dc6ecd69c194df39ad75332a5fba2a4
+- vedio link of assignment-  https://www.loom.com/share/76b21b0ce01a49e980041c5e85fc08a3
              
 - frontend code  github link - https://github.com/Shivam4819/JackFruitFrontEnd
 
@@ -18,17 +18,11 @@ The project architecture has three layers,that are controller, service and dao l
 
 ## API
 
-- This application has 7 api
+- This application has 4 api
 
 - restaurantlist- This api fetches the details of restaurant from the database and display that data on front end
 
 - fetchMenu- This api return the menu list of particular restaurant. 
-
-- addMenu- This api adds the specific item in cart. 
-
-- cartItem- Ths api return all the data stored in cart table. 
-
-- deletItem- This api deletes the specific item from cart. 
 
 - placeOrder- This api stores all the data when order is finally placed.
 
