@@ -1,7 +1,6 @@
 package com.example.demo.controller;
 
-import com.example.demo.request.CartItemRequest;
-import com.example.demo.request.DeleteCartItemRequest;
+import com.example.demo.request.FinalOrder;
 import com.example.demo.request.MenuIdRequest;
 import com.example.demo.response.*;
 import com.example.demo.service.RestaurantService;
@@ -27,32 +26,14 @@ public class RestaurantController {
        return restaurantService.getMenu(menuIdRequest.getId());
     }
 
-    @PostMapping("/order")
-    public AddToCartResponse addmenu(@RequestBody CartItemRequest cartItemRequest){
-
-      return restaurantService.addToCart(cartItemRequest);
-    }
-
-    @GetMapping("/cart")
-    public List<CartItemResponse> cartItem(){
-
-        return restaurantService.getCartItem();
-    }
-
-    @PostMapping("/delcart")
-    public DeleteCartItemResponse deleteItem(@RequestBody DeleteCartItemRequest deleteCartItemRequest){
-         return restaurantService.delFromCart(deleteCartItemRequest);
-
-    }
-
-    @PostMapping("/placeOrder")
-    public OrderTableResponse placeOrder(){
-       return restaurantService.storeOder();
-    }
-
     @GetMapping("/finalorder")
     public List<FinalOrderResponse> finalOrder(){
         return restaurantService.fetchFinalOrder();
+    }
+
+    @PostMapping("/placeOrder")
+    public OrderTableResponse placeOrder(@RequestBody FinalOrder order){
+        return restaurantService.saveFinalOrder(order);
     }
 
 }
