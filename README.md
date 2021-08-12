@@ -27,3 +27,12 @@ The project architecture has three layers,that are controller, service and dao l
 - placeOrder- This api stores all the data when order is finally placed.
 
 - finalOrder- This api return the final order from order tabel.
+
+## Database
+ - MySql database is used to store the data.
+ 
+ - Restaurant table- used to store list of restaurant. Columns- [id, name, address, contact]
+ 
+ - Menu table- used to store the menu item of each restaurant. Columns-[id,restaurant_id, item_name, price]
+ 
+ - Order table- used to store the final order. Columns- [id,item_name, price]
