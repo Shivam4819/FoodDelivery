@@ -1,10 +1,7 @@
-# JackFruit Assignment
+# Food Delivery System
 
 The application is based on concept of online food delivery system. The application contains both front end and back end. The front end is made on react and
-the server side of the application is build using java on Spring boot. .
-- vedio link of assignment-  https://www.loom.com/share/76b21b0ce01a49e980041c5e85fc08a3
-             
-- frontend code  github link - https://github.com/Shivam4819/JackFruitFrontEnd
+the server side of the application is build using Spring boot. Mysql is used as the Database
 
 ## Architecture of Backend
 
