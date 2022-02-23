@@ -12,7 +12,7 @@ The project architecture has three layers,that are controller, service and dao l
 
 - Service- Service layer has all the bussiness logic and if there is any work associated with database it pass the data to Dao layer.
 
-- Dao- This layer perform all the operations that are associated with database.
+- DAO- This layer perform all the operations that are associated with database.
 
 ## API
 
